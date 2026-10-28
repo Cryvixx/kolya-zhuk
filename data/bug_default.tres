@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="BugType" format=3 uid="uid://calfcme0ynxek"]
+
+[ext_resource type="Script" uid="uid://bbpwv352d7558" path="res://scripts/bug_type.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://cp7w1t4udr80a" path="res://art/bug_sheet.png" id="2"]
+
+[resource]
+script = ExtResource("1")
+texture = ExtResource("2")
+separation_radius_min = 20.0
+separation_radius_max = 40.0
